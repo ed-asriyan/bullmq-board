@@ -1,0 +1,25 @@
+{
+  "name": "bullmq-board",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ed-asriyan/bullmq-board.git"
+  },
+  "author": "Ed Asriyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ed-asriyan/bullmq-board/issues"
+  },
+  "homepage": "https://github.com/ed-asriyan/bullmq-board#readme",
+  "dependencies": {
+    "@bull-board/express": "^5.1.2",
+    "bullmq": "^3.13.4",
+    "ioredis": "^5.3.2"
+  }
+}
